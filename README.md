@@ -20,7 +20,7 @@
 
 ## Project Overview
 
-The **Virtual Telepresence Robot** allows for remote control of a robot using a web interface. It streams real-time video from a camera mounted on the robot and enables motor control for navigation using MQTT communication between a Raspberry Pi and an ESP32 microcontroller.
+The **Virtual Telepresence Robot** allows for remote control of a robot using a web interface. It streams real-time video from a camera mounted on the robot and enables motor control for navigation using HTPP communication between a Raspberry Pi and an ESP32 microcontroller.
 
 ---
 
@@ -39,7 +39,7 @@ The **Virtual Telepresence Robot** allows for remote control of a robot using a 
 - **ESP32** (for motor control)
 - **DC Motors** (4x)
 - **L298N Motor Driver** (1x)
-- **Joystick
+- **Joystick**(1x)
 - **GPIO Pins** for control connections
 - **MQTT Broker** for communication
 - **Flask** for the web interface
